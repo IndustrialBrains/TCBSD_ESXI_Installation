@@ -41,7 +41,7 @@ Upload `TCBSD.vmdk` to the ESXi datastore.
 
 1. Create a new ESXi VM. For the OS, select "Other" and "FreeBSD 12 or later versions (64-bit)"
 ![vm1](images/vm1.png)
-1. Add an existing harddrive. When prompted, select  `TCBSD_installer.vmdk`.
+1. Add an existing harddrive. When prompted, select  `TCBSD_installer.vmdk`\
 ![add_drive](images/add_drive.png)\
 The end result should look something like this:
 ![vm2](images/vm2.png)
@@ -67,7 +67,7 @@ Press Enter to return to the main menu, and select `Shutdown`. Wait for the syst
 
 It is now time to see if we can connect to the TwinCAT/BSD VM.
 
-1. Open the Edit Routes windows from the Windows taskbar:
+1. Open the Edit Routes windows from the Windows taskbar:\
 ![xae1](images/xae1.png)
 1. Click **Add** to open the Add Route Dialog. Click **Broadcast Search**. Assuming the VM has an IP in the same range as your PC, the VM should be detected:
 ![xae4](images/xae4.png)
