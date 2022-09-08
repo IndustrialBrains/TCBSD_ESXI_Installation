@@ -17,7 +17,7 @@ Tested with:
 ### 1. Convert the TwinCAT/BSD installer disc image
 
 1. [Download](https://www.beckhoff.com/en-en/support/download-finder/software-and-tools/) and unzip the TwinCAT/BSD ISO file, e.g., `TCBSD-x64-13-55702.iso`
-1. VMware will not recognize this ISO file as bootable media. Therefore, we have to convert the ISO to a bootable VMware disk image using VirtualBox. [Download](https://www.virtualbox.org/wiki/Downloads) and install VirtualBox
+1. VMware will not recognize this ISO file as bootable media. Therefore, we have to convert the ISO to a bootable VMware disk image using VirtualBox. [Download](https://www.virtualbox.org/wiki/Downloads) and install VirtualBox (tested with 6.1.38).
 1. Convert the ISO to a VMware VMDK disk image (replace paths where needed):
 	```
 	D:\Downloads>"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" convertfromraw --format VMDK TCBSD-x64-13-55702.iso TCBSD.vmdk
@@ -88,12 +88,16 @@ This is a good time to make a snapshot of the VM. Open up a terminal to the VM's
 
 Check out the [Beckhoff TwinCAT/BSD manual](http://ftp.beckhoff.com/download/document/ipc/embedded-pc/embedded-pc-cx/TwinCAT_BSD_en.pdf) for useful tips on setting up the system and upgrading to newer versions.
 
+Want real-time performance? then check out [this article by VMware](https://www.vmware.com/techpapers/2013/deploying-extremely-latency-sensitive-applications-10383.html), explaining how to minimize latency (jitter) by exclusively assign physical cores to a VM.
+
 ## Feedback
 
 Suggestions and feedback are always welcome! preferably by creating an issue or a pull request.
 
-
 ## Credits
 
-Thanks to Roald87 for providing [instructions](https://github.com/r9guy/TwinCAT-BSD-VM-creator) on how to convert the ISO using VirtualBox. Be sure to check out his website for more TwinCAT tips & tricks: https://cookncode.com/
+Thanks to [r9guy](https://github.com/r9guy) for providing [instructions](https://github.com/r9guy/TwinCAT-BSD-VM-creator) on how to convert the ISO using VirtualBox.
 
+Installation instructions for VirtualBox and VMware Workstation can be found on [Roald87's](https://github.com/roald87) website [Cook & Code](https://cookncode.com/). Be sure to check out his repos and website for more TwinCAT tips & tricks!
+
+And a must-read is [Jakob Sagatowski's](https://github.com/sagatowski) excellent blog [AllTwinCAT](https://alltwincat.com/), its packed with useful information.
