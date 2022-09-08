@@ -98,6 +98,6 @@ Suggestions and feedback are always welcome! preferably by creating an issue or 
 
 Thanks to [r9guy](https://github.com/r9guy) for providing [instructions](https://github.com/r9guy/TwinCAT-BSD-VM-creator) on how to convert the ISO using VirtualBox.
 
-Installation instructions for VirtualBox and VMware Workstation can be found on [Roald87's](https://github.com/roald87) website [Cook & Code](https://cookncode.com/). Be sure to check out his repos and website for more TwinCAT tips & tricks!
+Detailed [installation instructions](https://cookncode.com/twincat/2022/08/11/twincat-bsd.html) for VirtualBox and VMware Workstation can be found on [Roald87's](https://github.com/roald87) website [Cook & Code](https://cookncode.com/). Be sure to check out his repos and website for more TwinCAT tips & tricks!
 
 And a must-read is [Jakob Sagatowski's](https://github.com/sagatowski) excellent blog [AllTwinCAT](https://alltwincat.com/), its packed with useful information.
