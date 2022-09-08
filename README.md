@@ -88,7 +88,7 @@ This is a good time to make a snapshot of the VM. Open up a terminal to the VM's
 
 Check out the [Beckhoff TwinCAT/BSD manual](http://ftp.beckhoff.com/download/document/ipc/embedded-pc/embedded-pc-cx/TwinCAT_BSD_en.pdf) for useful tips on setting up the system and upgrading to newer versions.
 
-Want real-time performance? then check out [this article by VMware](https://www.vmware.com/techpapers/2013/deploying-extremely-latency-sensitive-applications-10383.html), explaining how to minimize latency (jitter) by exclusively assign physical cores to a VM.
+Want real-time performance? then check out [this article by VMware](https://www.vmware.com/techpapers/2013/deploying-extremely-latency-sensitive-applications-10383.html), explaining how to minimize latency (jitter) by exclusively assigning physical CPU cores to a VM.
 
 ## Feedback
 
