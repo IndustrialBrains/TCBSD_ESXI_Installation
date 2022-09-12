@@ -61,7 +61,7 @@ The end result should look something like this:
 Press Enter to return to the main menu, and select `Shutdown`. Wait for the system to power off.
 1. Open the VM options, and remove the TC/BSD installer hard disk. The files can be deleted safely.
 ![vm4](images/vm4.png)
-1. Power on the VM. After a while, the TC/BSD login screen appears. You have now successfully installed TC/BSD!
+1. Power on the VM. After a while, the TC/BSD login screen appears. You have now successfully installed TC/BSD and should be able to open the PLC web interface now (i.e, open up a browser and surf to `https://<PLC IP address>/`).
 
 ### 4. Testing the system
 
