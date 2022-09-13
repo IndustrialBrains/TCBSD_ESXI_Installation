@@ -69,14 +69,14 @@ It is now time to see if we can create a route to the TwinCAT/BSD VM.
 
 1. Open the Edit Routes windows from the Windows taskbar:\
 ![xae1](images/xae1.png)
-1. Click **Add** to open the Add Route Dialog. Click **Broadcast Search**. Assuming the VM has an IP in the same range as your PC, the VM should be detected:
+1. Click **Add** to open the Add Route Dialog. Click **Broadcast Search**. Assuming the VM has an IP in the same range as your PC, the VM should be detected:\
 ![xae4](images/xae4.png)
 1. Select the VM, check **Advanced Settings**, make sure the **IP Address** radio button is selected (we have experienced connection issues when using the Host Name).\
 ![xae5](images/xae5.png)\
 1. Click **Add Route**, check **Secure ADS** and enter the administrator password. Click OK to add the route.\
 ![xae6](images/xae6.png)\
 **TIP** If you want to use the simple insecure login (unencrypted ADS communication), be sure to add the corresponding firewall rule on the VM. Instructions can be found in the [Beckhoff TwinCAT/BSD manual](http://ftp.beckhoff.com/download/document/ipc/embedded-pc/embedded-pc-cx/TwinCAT_BSD_en.pdf), chapter 4.3.
-1. If the route has been added succesfully, a lock icon appears in the Connected column:
+1. If the route has been added succesfully, a lock icon appears in the Connected column:\
 ![xae7](images/xae7.png)\
 Click OK, and OK again in the **Choose Target System** windows (which now shows the VM)\
 ![xae8](images/xae8.png)\
